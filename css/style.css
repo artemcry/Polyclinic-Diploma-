@@ -1,0 +1,51 @@
+
+.hdr {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin-top: 0%;
+  background-color: #E5EDED;
+  color: #314134;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  
+  /* Стилі для пунктів меню */
+  .menu-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Стилі для пункту "Вийти" */
+  .menu-item:last-child {
+    margin-right: 20px;
+  }
+
+  
+  /* Стилі при наведенні */
+  .menu-item:hover {
+    color: #76cb00;
+    animation: shake 0.5s;
+  }
+  
+  /* Анімація */
+  @keyframes shake {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(1deg); }
+    40% { transform: rotate(-1deg); }
+    60% { transform: rotate(1deg); }
+    80% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  
